@@ -5,17 +5,19 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
-
+venv/
+.venv/
+.env
 # testing
 /coverage
-
+venv
 # next.js
 /.next/
 /out/
-
+/venv
 # production
 /build
-
+.venv
 # misc
 .DS_Store
 *.pem
